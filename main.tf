@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "this" {
-  bucket = "collins-test-bucket-202506021800"
+  bucket = "collins-dev-bucket-2025060282001"
 
   tags = {
-    Name        = "collins-test-bucket-202506021800"
+    Name        = "collins-dev-bucket-2025060282001"
     Environment = "Dev"
   }
 }
