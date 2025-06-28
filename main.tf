@@ -1,18 +1,8 @@
-resource "aws_s3_bucket" "example" {
-  bucket = "my-okhai-test-bucket-202506021800"
+resource "aws_s3_bucket" "this" {
+  bucket = "collins-dev-bucket-2025060282001"
 
   tags = {
-    Name        = "my-okhai-test-bucket-202506021800"
-    Environment = "Dev"
-  }
-}
-
-
-resource "aws_s3_bucket" "example-2" {
-  bucket = "collins-efe-test-bucket-202506021800"
-
-  tags = {
-    Name        = "collins-efe-test-bucket-202506021800"
+    Name        = "collins-dev-bucket-2025060282001"
     Environment = "Dev"
   }
 }
